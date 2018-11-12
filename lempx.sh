@@ -11,7 +11,7 @@ yum install wget
 
 #install nignx 
 cd /lempx/tmp
-wget https://github.com/lempx/base/raw/master/nginx-1.14.1.tar.gz
+wget https://github.com/lempx/sh/raw/master/src/nginx-1.14.1.tar.gz
 tar -xzvf nginx-1.14.1.tar.gz
 cd /lempx/tmp/nginx-1.14.1
 
@@ -23,3 +23,6 @@ cd /lempx/tmp/nginx-1.14.1
 --with-http_ssl_module
 
 make && make install
+
+#install php
+
