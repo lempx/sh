@@ -1,7 +1,7 @@
 #!/bin/bash
 #@creat date 2018-11-11
 #@author Lempx.com
-
+# test
 mkdir -p /lempx/tmp
 mkdir -p /lempx/app
 mkdir -p /lempx/www
