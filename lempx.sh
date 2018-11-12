@@ -7,8 +7,8 @@ mkdir -p /lempx/app
 mkdir -p /lempx/www
 
 #install common 
-yum install wget
-
+yum -y install wget
+yum -y install gcc automake autoconf libtool gcc-c++
 
 #install nignx 
 cd /lempx/tmp
