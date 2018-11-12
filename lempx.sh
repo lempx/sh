@@ -9,6 +9,7 @@ mkdir -p /lempx/www
 #install common 
 yum install wget
 
+
 #install nignx 
 cd /lempx/tmp
 wget https://github.com/lempx/sh/raw/master/src/nginx-1.14.1.tar.gz
