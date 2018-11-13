@@ -3,7 +3,7 @@
 
 mkdir -p /lempx/tmp
 mkdir -p /lempx/app
-ce /lempx/tmp
+cd /lempx/tmp
 
 wget http://download.redis.io/releases/redis-5.0.0.tar.gz
 tar xzf redis-5.0.0.tar.gz
